@@ -1,6 +1,6 @@
 # Kubernetes vs Red Hat OpenShift Workshop
 
-1. Sign Up for IBM Cloud: https://ibm.biz/k8s-apr2020
+1. Sign Up for IBM Cloud: https://ibm.biz/forwardjs2020
 1. Grab your Cluster: https://oskvrho.mybluemix.net (Lab Key: *oslab*)
 1. Review the Workshop instructions: https://ibm.biz/k8s-apr2020-lab
 
