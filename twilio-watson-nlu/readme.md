@@ -3,7 +3,7 @@
 1. Sign Up for IBM Cloud: https://ibm.biz/chatbot-javascript
 1. Sign Up for Twilio: 
 
-#Resources
+# Resources
 
 1. IBM Natural Language Understanding Docs: https://cloud.ibm.com/apidocs/natural-language-understanding
 1. Twilio Functions Docs: https://www.twilio.com/docs/runtime/functions
