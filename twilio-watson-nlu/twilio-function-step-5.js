@@ -1,6 +1,3 @@
-//Remember to set up your two variables in the Configure menu to your left <---
-//watson_apikey and watson_url from your IBM Cloud dashboard
-
 exports.handler = function(context, event, callback) {
   const NaturalLanguageUnderstandingV1 = require('ibm-watson/natural-language-understanding/v1');
   const { IamAuthenticator } = require('ibm-watson/auth'); 
@@ -30,20 +27,15 @@ exports.handler = function(context, event, callback) {
       "categories": {},
       "concepts": {},
       "entities": {},
-      "keywords": {}
+      "keywords": {
+        "limit": 3
+      }
     }
   };
 
   const framework = whichfw.classify(inputText);
-  const twilioResponse = {
-	"actions": [
-		{
-			"say": "Your JavaScript framework is: " + framework +
-			" " + frameworks[framework]
-		}
-	]
-  };
-  callback(null, twilioResponse);
+  const frameworkResponse = "Your JavaScript framework is: " + framework.toUpperCase() +
+    ". " + frameworks[framework];
   
   const naturalLanguageUnderstanding = new NaturalLanguageUnderstandingV1({
     version: '2020-06-12',
@@ -55,18 +47,17 @@ exports.handler = function(context, event, callback) {
   
   naturalLanguageUnderstanding.analyze(analyzeParams)
     .then(analysisResults => {
-      const r = {
+      const twilioResponse = {
         "actions": [
           {
           "say": "We detected " + analysisResults.result.sentiment.document.label + 
             " sentiments, and identified the keywords " +
-            analysisResults.result.keywords.reduce((total, {text}) => total + ", " + answer, "") +
-            ". Your JavaScript framework is: " + framework +
-		    " " + frameworks[framework]
+            analysisResults.result.keywords.reduce((a,v,i) => {return a + (i===0?"":", ") + v.text}, "") +
+            ". " + frameworkResponse
           }
 	    ]
       };
-      callback(null, JSON.stringify(analysisResults, null, 2));
+      callback(null, twilioResponse);
     })
     .catch(err => {
       callback(null, 'Error: ' + err);
