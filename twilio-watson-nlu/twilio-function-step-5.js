@@ -12,7 +12,7 @@ exports.handler = function(context, event, callback) {
 
   //Build our Bayesian model
   var whichfw = new WhichX();
-  whichfw.addLabels(["Angular", "react", "Vue", "Ember", "Backbone"]);
+  whichfw.addLabels(["Angular", "React", "Vue", "Ember", "Backbone"]);
   Object.keys(frameworks).forEach((p) => { whichfw.addData(p.toLowerCase(), frameworks[p].toLowerCase()) } );
 
   //Get answer from Memory
