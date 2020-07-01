@@ -1,5 +1,5 @@
 # Kubernetes vs. Red Hat OpenShift
-## June 10, 2020
+## July 1, 2020
 
 1. Sign Up for IBM Cloud: http://ibm.biz/k8s-rhos-signup
 1. Grab your Cluster: https://os101ws.mybluemix.net (Lab Key: *oslab*)
