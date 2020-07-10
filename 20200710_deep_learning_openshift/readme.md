@@ -8,6 +8,7 @@ You can also log in at this URL if you already have an IBM Cloud account.
 * **Create a Visual Recognition Service** https://cloud.ibm.com/catalog/services/visual-recognition
 
 1. Select the **Lite** tier and click **Create.** Click **Service Credentials** on the left menu and note the **apikey** and **url**.
+1. Open the **IBM Cloud Shell** by clicking in the upper-right of your IBM Cloud browser tab.
 1. Call the service by copying the following URL `curl -u "apikey:{apikey}" "{url}/v3/classify?url={image_url}&version=2018-03-19"` and replace the **apikey** and **url** with your service credentials. Here is an example `image_url` to use: `https://api.time.com/wp-content/uploads/2015/02/cats.jpg?quality=85&w=1024&h=512&crop=1`
 
 * **Review the Workshop instructions:** https://developer.ibm.com/tutorials/openshift-ai-integration-max-model-deployment-labs/
