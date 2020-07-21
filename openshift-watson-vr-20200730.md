@@ -1,4 +1,4 @@
-# Kubernetes vs. Red Hat OpenShift
+# Red Hat OpenShift with Watson VR
 ## July 30, 2020
 
 * **Sign Up for IBM Cloud:** https://ibm.biz/rhos-20200730
