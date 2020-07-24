@@ -17,6 +17,9 @@ You can also log in at this URL if you already have an IBM Cloud account.
 
 https://loopback.io/doc/en/lb4/Deploying-to-IBM-Cloud.html
 
+If you'd like to build a Todo app yourself on Loopback 4, follow these instructions:
+
+https://developer.ibm.com/tutorials/create-rest-apis-minutes-with-loopback-4/
 
 
 # FAQ
