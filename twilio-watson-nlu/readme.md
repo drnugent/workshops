@@ -5,7 +5,8 @@
 
 # Blog Post & Lab Instructions
 
-1. Twilio Blog Post: https://www.twilio.com/blog/analyze-texts-ibm-watson-twilio-functions
+1. Watson + SMS Twilio Blog Post: https://www.twilio.com/blog/analyze-texts-ibm-watson-twilio-functions
+1. Watson + Autopilot Blog Post: https://www.twilio.com/blog/what-framework-are-you-watson-autopilot
 
 # Resources
 
