@@ -3,6 +3,10 @@
 1. Sign Up for IBM Cloud: http://ibm.biz/js-chatbot-202007
 1. Sign Up for Twilio: https://www.twilio.com/referral/iHsJ5D
 
+# Blog Post & Lab Instructions
+
+1. Twilio Blog Post: https://www.twilio.com/blog/analyze-texts-ibm-watson-twilio-functions
+
 # Resources
 
 1. IBM Natural Language Understanding Docs: https://cloud.ibm.com/apidocs/natural-language-understanding
