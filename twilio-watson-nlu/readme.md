@@ -1,6 +1,6 @@
 # Build a Virtual Agent in JavaScript with Twilio Autopilot and IBM Watson Natural Language Understanding
 
-1. Sign Up for IBM Cloud: https://ibm.biz/chatbot-javascript
+1. Sign Up for IBM Cloud: http://ibm.biz/js-chatbot-202007
 1. Sign Up for Twilio: https://www.twilio.com/referral/iHsJ5D
 
 # Resources
