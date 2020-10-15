@@ -2,13 +2,16 @@
 
 1. Sign Up for IBM Cloud: https://ibm.biz/slack-watson-workshop
 1. Check out [Red Hat Marketplace](https://marketplace.redhat.com/en-us?cm_mmc=Inpersondirected-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-Oct2020-cfebuildavirtualagentinjavascriptwithtwilioandwatsonnaturallanguageunderstanding-eventid-5f205f20eddc5ad072d0b96f-global-devadvgrp-sanfrancisco-franchise-workshop-sanfrancisco_ov77410&cm_mmca1=000039JL&cm_mmca2=10010797&eventid=5f205f20eddc5ad072d0b96f)
+1. Create a Watson Assistant service: https://cloud.ibm.com/catalog/services/watson-assistant
+1. Launch the Watson Assistant Tool
+1. Create a Skill: Customer Care Example Skill
 1. Create a Slack Workspace: https://slack.com/get-started#/create
 
-# Part A: Cloud UI Integration
+# Cloud UI Integration
 
-1. 
+1. Follow the [Slack/Watson integration steps outlined here](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-slack).
 
-# Part B: Code-level Integration
+# Bonus Part: Code-level Integration
 
 1. Remix our Glitch Project https://glitch.com/edit/#!/slack-watson-workshop
 
