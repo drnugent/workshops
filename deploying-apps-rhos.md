@@ -2,7 +2,7 @@
 ## December 14, 2020
 
 1. Sign Up for IBM Cloud: https://ibm.biz/BdqNKR
-1. Check out Red Hat Marketplace: https://ibm.biz/BdfBjz
+1. [Check out Red Hat Marketplace](https://marketplace.redhat.com/en-us?cm_mmc=Inpersondirected-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-Dec2020-deployingapplicationsonredhatopenshift-eventid-5fbbff0fb353bd889268a215-global-devadvgrp-sanfrancisco-franchise-webinar-online_ov77410&cm_mmca1=000039JL&cm_mmca2=10010797&eventid=5fbbff0fb353bd889268a215)
 1. Review the Workshop instructions: https://ibm-developer.gitbook.io/openshift101/getting-started/get_started
 
 # FAQ
