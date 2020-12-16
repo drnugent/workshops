@@ -1,8 +1,8 @@
-# Deploying Applications on Red Hat OpenShift
-## December 14, 2020
+# Deploying Applications on Red Hat OpenShift and Cloudant
+## December 16, 2020
 
-1. Sign Up for IBM Cloud: https://ibm.biz/BdqNKR
-1. [Check out Red Hat Marketplace](https://marketplace.redhat.com/en-us?cm_mmc=Inpersondirected-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-Dec2020-deployingapplicationsonredhatopenshift-eventid-5fbbff0fb353bd889268a215-global-devadvgrp-sanfrancisco-franchise-webinar-online_ov77410&cm_mmca1=000039JL&cm_mmca2=10010797&eventid=5fbbff0fb353bd889268a215)
+1. Sign Up for IBM Cloud: https://ibm.biz/BdqNKs
+1. [Check out Red Hat Marketplace](https://marketplace.redhat.com/en-us?cm_mmc=Inpersondirected-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-Dec2020-deployingapplicationsonredhatopenshiftwithoperatorsandcloudant-eventid-5fbc0081b353bd00ea68a228-global-devadvgrp-sanfrancisco-franchise-webinar-online_ov77410&cm_mmca1=000039JL&cm_mmca2=10010797&eventid=5fbc0081b353bd00ea68a228)
 1. Review the Workshop instructions for **Lab 2**: https://developer.ibm.com/openlabs/openshift
 
 # FAQ
