@@ -29,7 +29,7 @@
 1. In the upper-right, click **Actions** then select **Connect via CLI**. Follow the instructions on this page to get your login command.
 1. In the upper-right, click **IBM Cloud Shell**, just to the right of your account name.
 1. When the shell loads, **paste** the login command into the shell.
-1. You're now logged in to your Red Hat OpenShift cluster. Let's create a new command by executing `oc new-project spa`
+1. You're now logged in to your Red Hat OpenShift cluster. Let's create a new command by executing `oc new-project webapp`
 1. Now, let's generate some new public and private keys:
 ```
 openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
