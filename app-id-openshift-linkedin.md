@@ -39,6 +39,22 @@ openssl rsa -pubout -in private_key.pem -out public_key.pem
 ```
 1. Execute `cat public_key.pem` and paste the results into the **App ID browser tab** we kept open from the prior steps. Click **Save**.
 1. Execute `git clone https://github.com/drnugent/appid-rhos`, then `cd appid-rhos`
+1. Open `app.js` and replace the JSON with your App ID application details from the browser tab you kept open in a prior step.
+```
+const config = {
+ "clientId": "clientId",
+ "oauthServerUrl": "oauthServerUrl",
+ "profilesUrl": "profilesUrl",
+ "secret": "secret",
+ "tenantId": "tenantId",
+ "preferredLocale": "en"
+};
+```
+1. Additionally, replace the LinkedIn credentials with the values from the LinkedIn tab you kept open in a prior step.
+```
+const LINKEDINCLIENTID = "LINKEDINCLIENTID";
+const LINKEDINSECRET = "LINKEDINSECRET";
+```
 
 
 # Resources
