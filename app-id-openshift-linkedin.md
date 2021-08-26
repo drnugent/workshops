@@ -7,7 +7,7 @@
 
 1. Ensure you're logged in to IBM Cloud: https://ibm.biz/os-linkedin-auth
 2. Create an [App ID Service](https://cloud.ibm.com/catalog/services/app-id). Make sure you select the **Lite** tier before clicking **Create**.
-3. In the left-hand menu, click **Applications**, then **Add Application**. Choose an application name and select **Single Page Application**, then click **Save**.
+3. In the left-hand menu, click **Applications**, then **Add Application**. Choose an application name and select **Web Application**, then click **Save**.
 4. Click the tick mark next to your application to **expand** the application details. Here you'll find credentials to plug into your sample app.
 5. In the left-hand menu, under **Identity Providers**, click **Custom Identity**.
 6. Here is where you'll paste in the public key that we create in a later step. Keep this tab open.
@@ -38,7 +38,7 @@ openssl rsa -pubout -in private_key.pem -out public_key.pem
 1. Execute `cat public_key.pem` and paste the results into the **App ID browser tab** we kept open from the prior steps. Click **Save**.
 1. Execute `git clone https://us-south.git.cloud.ibm.com/gm4c-mod/cloudfriendly-app-security.git`, then `cd cloudfriendly-app-security`
 1. Now, we'll run `cp template-app-id.env gm4cappmod-app.env`
-1. Open this new file in your favorite editor, for me it's **vim**: `vi gm4cappmod-app.env` and complete the key/value pairs with the values from your **App ID tab** which we left open in a prior step. You'll be updating the **clientId**, **oAuthServerUrl**
+1. Open this new file in your favorite editor, for me it's **vim**: `vi gm4cappmod-app.env` and complete the key/value pairs with the values from your **App ID tab** which we left open in a prior step. You'll be updating the **clientId**, **secret** and **oAuthServerUrl**
 
 
 # Resources
