@@ -1,6 +1,6 @@
 # Hybrid Cloud Authentication Lab: Adding LinkedIn Auth to Red Hat OpenShift Clusters
 
-1. Sign Up for IBM Cloud: 
+1. Sign Up for IBM Cloud: https://ibm.biz/os-linkedin-auth
 1. Log In to LinkedIn: https://www.linkedin.com
 
 # LinkedIn Instructions
