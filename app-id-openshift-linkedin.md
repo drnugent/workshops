@@ -1,5 +1,7 @@
 # Hybrid Cloud Authentication Lab: Adding LinkedIn Auth to Red Hat OpenShift Clusters
 
+Let's build out a LinkedIn authentication integration on Red Hat OpenShift! We're going to follow [the steps outlined in this blog post](https://www.ibm.com/cloud/blog/app-id-integrate-custom-identity), but updating them to work on Red Hat OpenShift and Kubernetes.
+
 1. Sign Up for IBM Cloud: https://ibm.biz/os-linkedin-auth
 1. Log In to LinkedIn: https://www.linkedin.com
 
